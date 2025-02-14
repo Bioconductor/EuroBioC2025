@@ -4,7 +4,7 @@
 
 **Important Dates**
 
-- **January 19th**: Call for abstracts opens
+- **February 19th**: Call for abstracts opens
 - **April 24th**: Call for abstracts closes
 - **May 7th**: Notification of decision
 <!-- - **TBD**: Submission of Birds-of-a-Feather sessions closes -->
