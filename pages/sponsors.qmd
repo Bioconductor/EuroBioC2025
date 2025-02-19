@@ -1,5 +1,18 @@
 # Sponsors
 
+:::: {.columns}
+::: {.column width="50%"}
+**Bronze**
+
+[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=30%}](https://bigomics.ch){target="_blank"}
+:::
+::: {.column width="50%"}
+:::
+
+::::
+
+## About sponsoring EuroBioC2025
+
 [Bioconductor](https://bioconductor.org) is a non-profit organisation that supports one of the most widely used data analysis ecosystems in genomics.
 Software packages are contributed by more than 1,200 community developers worldwide, totaling over 42 million downloads by [about 1 million distinct IP addresses](https://www.bioconductor.org/packages/stats/bioc/index.html) in 2023. 
 
