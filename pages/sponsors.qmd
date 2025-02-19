@@ -4,7 +4,7 @@
 ::: {.column width="50%"}
 **Bronze**
 
-[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=30%}](https://bigomics.ch){target="_blank"}
+[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=50%}](https://bigomics.ch){target="_blank"}
 :::
 ::: {.column width="50%"}
 :::

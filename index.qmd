@@ -62,7 +62,7 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 
 ::: {.column width="33%"}
 
-[![](images/sponsors/Bigomics-Logo-1000x358.png){width=30%}](https://bigomics.ch){target="_blank"}
+[![](images/sponsors/Bigomics-Logo-1000x358.png){width=50%}](https://bigomics.ch){target="_blank"}
 :::
 
 ::::
