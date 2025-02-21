@@ -1,12 +1,34 @@
 # Sponsors
 
-:::: {.columns}
-::: {.column width="50%"}
 **Bronze**
 
-[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=50%}](https://bigomics.ch){target="_blank"}
+:::: {.columns}
+::: {.column width="20%"}
 :::
-::: {.column width="50%"}
+
+::: {.column width="60%"}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=100%}](https://bigomics.ch){target="_blank"}
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+[![](../images/sponsors/MedBioinformatics-Logo-1000x358.png){width=100%}](https://medbioinformatics.com){target="_blank"}
+
+:::
+
+::::
+
+:::
+
+::: {.column width="20%"}
 :::
 
 ::::
