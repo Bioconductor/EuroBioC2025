@@ -1,6 +1,45 @@
 # Travel Information
 
-If you are traveling internationally, we recommend flying into [Barcelona El Prat Airport](https://www.aeropuertobarcelona-elprat.com).
+## How to get to Barcelona
+
+You can get to Barcelona in the following ways:
+
+* **By train:** Barcelona is connected with high-speed trains with France and
+  Madrid as well as other cities in Spain. The main railway station where high-speed
+  trains arrive is
+  [Barcelona-Sants](https://www.barcelona.cat/en/discoverbcn/pics/la-estacion-de-sants-92086009180).
+  Barcelona is also the hub of the regional and metropolitan train network of
+  Catalonia; see
+  [Rodalies de Catalunya](https://rodalies.gencat.cat/en/horaris/index.html) and
+  [Ferrocarrils de la Generalitat](https://www.fgc.cat/en).
+
+* **By plane:** The main international airport of Barcelona is
+  [Josep Tarradellas (BCN)](https://www.aeropuertobarcelona-elprat.com/ingl/index.html),
+  formerly known as "El Prat Airport", located about 16 Km away from the south of the
+  city. You can reach the city by a
+  [shuttle bus](https://aerobusbarcelona.es/?lang=en),
+  [subway (L9 South)](https://www.tmb.cat/en/visit-barcelona/public-transport/metro-airport)
+  or [taxi](https://www.aeropuertobarcelona-elprat.com/ingl/barcelona_airport_taxis.htm). The regional airports of
+  [Girona Costa-Brava (GRO)](https://www.aena.es/en/girona-costa-brava.html) and
+  [Reus (REU)](https://www.aena.es/en/reus.html) are located about one hour away
+  from the city.
+
+* **By bus:** The main bus station with national and international services is
+  the [Barcelona Nord Bus Station](https://barcelonanord.barcelona/en), but there
+  are also bus services arriving to 
+  [Barcelona-Sants](https://www.barcelona.cat/en/discoverbcn/pics/la-estacion-de-sants-92086009180)
+  and other parts of the city.
+
+* **By boat:** There are national and international connections by ferry to
+  some of the most important cities in the Meditarranean at the
+  [The Port of Barcelona](https://www.portdebarcelona.cat/en/business-and-services/traffic-and-goods/ferries).
+
+* **By car:** Barcelona is connected by different motor highways, but bear in
+  mind that access is restricted for polluting vehicles; see the
+  [Barcelona Ring Roads Low Emission Zone](https://ajuntament.barcelona.cat/qualitataire/en/low-emission-zone/what-barcelona-ring-roads-low-emission-zone)
+  and traffic jams are common during rush hours. There is a
+  [Car Park Network](https://aparcamentsbsm.cat/en) of the city, as well as many
+  other private parking facilities, but in general parking is expensive.
 
 ## Venue
 
@@ -8,3 +47,19 @@ The European Bioconductor Conference 2025 will take place at the
 Barcelona Biomedical Research Park ([PRBB](https://prbb.org)).
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5986.9755460835695!2d2.1940969999999997!3d41.3852123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a306002af6a7%3A0x19d613601960f62c!2sBarcelona%20Biomedical%20Research%20Park%2C%20Ciutat%20Vella%2C%2008003%20Barcelona!5e0!3m2!1sen!2ses!4v1731921465451!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+The PRBB can be reached by:
+
+* Subway, where the closest stop is "Ciutadella - Vila Olímpica" of the
+[L4 (yellow) line](https://www.tmb.cat/en/barcelona/metro/-/lineametro/L4).
+
+* Tram, where the closest stop is also called "Ciutadella - Vila Olímpica"
+  of the [T6 tram line](https://www.tram.cat/en/lines-and-timetables).
+
+* Bus, where the closest stops are "Trelawny - Av Litoral"
+  ([D20](https://www.tmb.cat/en/barcelona/buses/-/lineabus/D20))
+  and "Hospital del Mar"
+  ([47](https://www.tmb.cat/en/barcelona/buses/-/lineabus/47),
+  [59](https://www.tmb.cat/en/barcelona/buses/-/lineabus/59)
+  and
+  [D20](https://www.tmb.cat/en/barcelona/buses/-/lineabus/D20)).
