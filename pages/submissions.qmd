@@ -111,3 +111,9 @@ To propose a contributed session, all the intended talks must be submitted separ
 ### Digital poster
 Digital posters can be submitted and displayed/presented as plain pdf posters, shiny apps, web pages, ... be creative! Posters will be presented in a dedicated remote session.
 -->
+
+## Questions?
+
+Do not hesitate to contact the [organizers](organizers.html) at
+[eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org) if you have
+a question about an abstract submission.
