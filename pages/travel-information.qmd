@@ -41,7 +41,7 @@ You can get to Barcelona in the following ways:
   [Car Park Network](https://aparcamentsbsm.cat/en) of the city, as well as many
   other private parking facilities, but in general parking is expensive.
 
-## Venue
+## Conference venue
 
 The European Bioconductor Conference 2025 will take place at the
 Barcelona Biomedical Research Park ([PRBB](https://prbb.org)).
@@ -63,3 +63,57 @@ The PRBB can be reached by:
   [59](https://www.tmb.cat/en/barcelona/buses/-/lineabus/59)
   and
   [D20](https://www.tmb.cat/en/barcelona/buses/-/lineabus/D20)).
+
+## Accommodation
+
+Participants are responsible for their accommodation arrangements. While
+Barcelona offers a wide range of possibilities for accommodation in terms of
+standards and rates, it also receives many visitors for tourism and business,
+which makes accommodation in Barcelona increasingly expensive every year. For
+this reason, we recommend to explore different options and book as early as
+possible. The following is a list of hotels located within 30 minutes walking
+of the conference venue (in alphabetic order):
+
+* [Hotel Acta Voraport](https://www.hotelvoraport.com/en) ([directions](https://maps.app.goo.gl/x9DqeiVjoGqLmVJ17))
+
+* [Hotel Catalonia Born](https://www.cataloniahotels.com/es/hotel/catalonia-born) ([directions](https://maps.app.goo.gl/65Xs1bGhskg1JN9r8))
+
+* [Hotel H10 Marina Barcelona](https://www.h10hotels.com/en/barcelona-hotels/h10-marina-barcelona) ([directions](https://maps.app.goo.gl/ef8eirTvZjT3mJDk9))
+
+* [Hotel Motel One Barcelona-Ciutadella](https://www.motel-one.com/en/hotels/barcelona/hotel-barcelona-ciutadella) ([directions](https://maps.app.goo.gl/jVdRqQYM6en1eyRF9))
+
+* [Hotel NH Barcelona Diagonal Center](https://www.nh-hotels.com/en/hotel/nh-barcelona-diagonal-center) ([directions](https://maps.app.goo.gl/9tAcTJiNnkDLR3BKA))
+
+* [Hotel SB Icaria Barcelona](https://www.hotelicariabarcelona.com/en) ([directions](https://maps.app.goo.gl/Px1QaS7CbX86FQwA7))
+
+Barcelona has an extensive subway and bus network, and to a less extent tram,
+which allows one to quicky reach the conference venue from the other side of
+the city in about 30 to 40 minutes, where you may be able to find cheaper
+accommodation rates. Some of the city districts and quarters away from the
+conference venue where you may enjoy your stay are:
+
+* [Barri de Sants](https://g.co/kgs/avQnWa3)
+
+* [Barri de Sant Antoni](https://g.co/kgs/HEViwSQ)
+
+* [Eixample Esquerra](https://g.co/kgs/1VbS8iZ)
+
+* [Eixample Dreta](https://g.co/kgs/krNjeiv)
+
+* [Gràcia](https://g.co/kgs/bjMXG6Y)
+
+* [Poble Sec](https://g.co/kgs/krZCZNS)
+
+* [Poble Nou](https://g.co/kgs/WoPPbfB)
+
+The [Resa Inn](https://www.resainn.com/accommodation/barcelona) network of
+university residence halls may offer daily rates in some of their
+student dorms in Barcelona (the one called "Campus del Mar" is very close to
+the conference venue).
+
+Barcelona also has quite a few youth hostels, which may offer some of the
+lowest accommodation rates:
+
+* [Hostelling International affiliated youth hostels](https://hihostels.com/hostels/?adventure=&country=Spain&city=Catalonia+-+Barcelona+-+City)
+
+* [HostelWorld affiliated youth hostels](https://www.hostelworld.com/hostels/europe/spain/barcelona)
