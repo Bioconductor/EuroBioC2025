@@ -67,5 +67,8 @@
   },
   "pages/speakers.qmd": {
     "speakers.html": "4c6eec26"
+  },
+  "pages/carpentryworkshops.qmd": {
+    "carpentryworkshops.html": "32e10925"
   }
 }
