@@ -1,0 +1,30 @@
+a:
+  nom: Robert Ivánek
+  pic: RobertIvanek.jpg
+  pos: Head of Bioinformatics Core Facility, University of Base, Switzerland
+  web: https://biomedizin.unibas.ch/en/persons/robert-ivanek
+  txt: "Robert Ivánek is the head of the Bioinformatics Core Facility at the Department of Biomedicine of the University of Basel, which provides solutions for analysis, visualization, management and interpretation of large-scale biological data, mainly produced by high-throughput genomics experiments."
+b:
+  nom: Estefania Mancini
+  pic: EstefaniaMancini.png
+  pos: Senior Bioinformatics Scientist, Josep Carreras Leukaemia Research Institute, Badalona, Spain
+  web: https://www.estepi.com
+  txt: "Estefania Mancini is a senior bioinformatics scientist at the Myelodysplastic Syndromes research group of the Josep Carreras Leukaemia Resarch Institute, with an extensive experience in bioinformatics applied to genomics and next generation sequencing, complemented by a strong background in molecular biology, and currently working on healthcare genomics using AI-driven analysis."
+c:
+  nom: Vasileios Panagiotis Lenis
+  pic: VasileiosPanagiotisLenis.jpg
+  pos: Associate Professor, University of Birmingham, UK
+  web: https://www.birmingham.ac.uk/staff/profiles/cancer-genomic/lenis-vasileios
+  txt: "Vasileios Panagiotis Lenis is Associate Professor in Bioinformatics and Health Data Science Education, working in a range of topics from comparative genomics and evolutionary studies to neuroscience research and personalised medicine."
+d:
+  nom: Kevin Rue-Albrecht
+  pic: KevinRue-Albrecht.jpg
+  pos: Biomedical Data Science Trainer, University of Oxford, UK
+  web: https://www.rdm.ox.ac.uk/people/kevin-rue-albrecht
+  txt: "Kevin Rue-Albrecht is a computational biologist and bioinformatics software developer that works on exploring and developing single-cell approaches for understanding inflammatory disorders, and on training cohorts of new computational biologists as part of the Oxford Biomedical Data Science Training Programme."
+e:
+  nom: Jacques Serizay
+  pic: JacquesSerizay.png
+  pos: Postdoctoral Fellow, Institut Pasteur, Paris, France
+  txt: "Jacques Serizay is a computational biologist at the Institut Pasteur, Paris, focusing on leveraging large-scale sequencing data to uncover the complexities of chromatin structure, gene regulation, and epigenetic modifications."
+  web: https://jserizay.com

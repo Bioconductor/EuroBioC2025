@@ -1,0 +1,84 @@
+# Carpentry-workshops
+
+Right before EuroBioC2025 starts, on Monday and Tuesday 15th and 16th of
+September, the
+[Bioconductor training committee](https://training.bioconductor.org) organizes
+the following two-day Bioconductor Carpentry Workshops:
+
+* **[Analysis and interpretation of bulk RNA sequencing data with Bioconductor](https://carpentries-incubator.github.io/bioc-rnaseq):**
+  This course shows how to use Bioconductor packages to analyse bulk RNA-seq
+  data including how to import and annotated quantified data into R, exploratory
+  analysis and quality control, differential expression analyais and gene set
+  enrichment analysis. Pre-requisites: familiarity with R and Bioconductor.
+  **Instructors:** Estefania Mancini, Vasileios Panagoitis Lenis and Jacques Serizay.
+
+* **[Analysis and interpretation of single-cell RNA sequencing data with Bioconductor](https://carpentries-incubator.github.io/bioc-scrnaseq):**
+  This course shows how to use Bioconductor packages for essential single-cell
+  analysis steps including quality control, cell type annotation, multi-sample
+  analysis, working with large data, and integration with public data.
+  Pre-requisites: familiarity with R and Bioconductor, familiarity with bulk RNA-seq
+  data analysis is beneficial, but not strictly required. **Instructors:**
+  Robert Ivánek and Kevin Rue-Albrecht.
+
+Each workshop takes two days, so you should either register for one or the other.
+
+## Venue and requirements
+
+The Bioconductor Carpentry Workshops will take place at the School of Medicine
+and Life Sciences of the Universitat Pompeu Fabra (UPF, see
+[https://www.upf.edu/biomed](https://www.upf.edu/biomed)), right next to the
+[PRBB](https://prbb.org) building, where EuroBioC2025 will take place.
+Participants are expected to bring their own laptop to follow the course. The
+rooms will have electric sockets to plug AC adapters and wireless internet
+connection. Eduroam WiFi will be available and participants without Eduroam
+will be able to connect to a guest UPF WiFi network, but will need a mobile
+telephone device to authenticate in the guest network.
+
+## Registration
+
+Details to register for the pre-conference Carpentries workshops will
+appear soon. Stay tuned!
+
+## What is a Bioconductor Carpentry Workshop
+
+[The Carpentries](https://carpentries.org) is a global community focused on
+teaching foundational coding and data science skills to researchers. The core
+of this community are
+[Carpentries Instructors](https://carpentries.org/community/instructors), who
+work together to grow their instructional and technical skills. Bioconductor is
+a member of The Carpentries, supporting community members to earn Carpentries
+instructor certification, develop Bioconductor-specific training materials, and
+teach Carpentry workshops on those materials.
+
+A Bioconductor Carpentry Workshop is a course on how to use Bioconductor packages
+and workflows, led by Carpentry-certified instructors on materials developed
+by the Bioconductor community.
+
+## Instructors
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+```{r results="asis", echo=FALSE}
+for (x in yaml::read_yaml("../data/carpentryinstructors.yaml")) {
+cat(":::: {.columns}\n")
+cat("###", x$nom, "\n")
+# 1st column
+cat("::: {.column width=60%}\n")
+cat("**", x$pos, "**\n\n", sep="")
+cat("::: {.justify}\n")
+cat(x$txt, "\n:::\n")
+cat(sprintf("<%s>", x$web), "\n")
+cat(":::\n")
+# horizontal spacing
+cat("::: {.column width=1%}\n:::\n")
+# 2nd column
+cat("::: {.column width=30%}\n")
+cat(sprintf("![](../images/carpentryinstructors/%s)", x$pic), "\n")
+cat(":::\n")
+cat("::::\n")
+}
+```
