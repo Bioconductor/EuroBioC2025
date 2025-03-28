@@ -9,7 +9,7 @@ website:
   navbar:
     toggle-position: right
     logo: images/logoBioc.svg
-    logo-alt: "Bioconductor"
+    logo-alt: "EuroBioC2025"
     title: false
     collapse-below: lg
     right:
