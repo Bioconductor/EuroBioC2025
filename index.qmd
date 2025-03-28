@@ -57,7 +57,7 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 
 ![](images/prbb_beach.png)
 
-# Sponsored by
+# \ \ \ Sponsored by
 
 :::: {.columns}
 ::: {.column width="33%"}
