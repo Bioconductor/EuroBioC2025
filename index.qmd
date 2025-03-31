@@ -60,10 +60,10 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 # \ \ \ Sponsored by
 
 :::: {.columns}
-::: {.column width="25%"}
+::: {.column width="20%"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 
 :::: {.columns}
 ::: {.column width="30%"}
@@ -88,7 +88,7 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 
 :::
 
-::: {.column width="25%"}
+::: {.column width="20%"}
 :::
 
 ::::

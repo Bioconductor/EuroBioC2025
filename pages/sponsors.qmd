@@ -3,10 +3,10 @@
 **Silver**
 
 :::: {.columns}
-::: {.column width="38%"}
+::: {.column width="30%"}
 :::
 
-::: {.column width="60%"}
+::: {.column width="70%"}
 
 :::: {.columns}
 
@@ -27,18 +27,15 @@
 
 :::
 
-::: {.column width="2%"}
-:::
-
 ::::
 
 **Bronze**
 
 :::: {.columns}
-::: {.column width="20%"}
+::: {.column width="15%"}
 :::
 
-::: {.column width="60%"}
+::: {.column width="70%"}
 
 :::: {.columns}
 
@@ -60,7 +57,7 @@
 
 :::
 
-::: {.column width="20%"}
+::: {.column width="15%"}
 :::
 
 ::::
