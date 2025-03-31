@@ -60,20 +60,27 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 # \ \ \ Sponsored by
 
 :::: {.columns}
-::: {.column width="33%"}
+::: {.column width="25%"}
 :::
 
-::: {.column width="33%"}
+::: {.column width="50%"}
 
 :::: {.columns}
-::: {.column width="48%"}
+::: {.column width="30%"}
 [![](images/sponsors/Bigomics-Logo-1000x358.png){width=100%}](https://bigomics.ch){target="_blank"}
 :::
 
-::: {.column width="4%"}
+::: {.column width="5%"}
 :::
 
-::: {.column width="48%"}
+::: {.column width="30%"}
+[![](images/sponsors/Seqera-Logo-1000x358.png){width=100%}](https://seqera.io){target="_blank"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
 [![](images/sponsors/MedBioinformatics-Logo-1000x358.png){width=100%}](https://medbioinformatics.com){target="_blank"}
 :::
 
@@ -81,7 +88,7 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 
 :::
 
-::: {.column width="33%"}
+::: {.column width="25%"}
 :::
 
 ::::

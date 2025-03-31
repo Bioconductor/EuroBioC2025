@@ -1,5 +1,37 @@
 # Sponsors
 
+**Silver**
+
+:::: {.columns}
+::: {.column width="38%"}
+:::
+
+::: {.column width="60%"}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+[![](../images/sponsors/Seqera-Logo-1000x358.png){width=100%}](https://seqera.io){target="_blank"}
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+:::
+
+::::
+
+:::
+
+::: {.column width="2%"}
+:::
+
+::::
+
 **Bronze**
 
 :::: {.columns}
