@@ -6,26 +6,10 @@
 
 - **February 19th**: Call for abstracts opens
 - **April 24th**: Call for abstracts closes
-- **May 7th**: Notification of decision
+- **May 9th**: Notification of decision
 <!-- - **TBD**: Submission of Birds-of-a-Feather sessions closes -->
 
 [Submit your abstract here!](https://openreview.net/group?id=bioconductor.org/EuroBioC/2025/Conference)
-
-<!--
-**Important Dates**
-* January 22, 2022: Call for abstracts opens
-* March 29, 2022: Call for abstracts closes at 11:59 pm Pacific time 
-* Registration will open soon
-* April 29, 2022: Notification of decision
-* July 27-29, 2022: The BioC2022 conference
-
-* January 22, 2021: Call for abstracts opens
-* New! Deadline extended to March 16, 2021: Abstract submission closes
-* Abstract submission is now closed. All submissions are currently under review.
-* April 16, 2021: Notification of decision
-* Registration will open soon
-* August 4-6, 2021: BioC2021
--->
 
 ## Submission types
 
