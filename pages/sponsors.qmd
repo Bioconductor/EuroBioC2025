@@ -3,61 +3,71 @@
 **Silver**
 
 :::: {.columns}
-::: {.column width="30%"}
+::: {.column width="10%"}
 :::
 
-::: {.column width="70%"}
+::: {.column width="80%"}
 
 :::: {.columns}
+::: {.column width="15%"}
+:::
 
-::: {.column width="45%"}
+::: {.column width="30%"}
+[![](../images/sponsors/MELISMdM-Logo-1000x358.png){width=100%}](https://www.upf.edu/web/biomed/mdm){target="_blank"}
+:::
 
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
 [![](../images/sponsors/Seqera-Logo-1000x358.png){width=100%}](https://seqera.io){target="_blank"}
+:::
+
+::: {.column width="15%"}
+:::
+
+::::
 
 :::
 
 ::: {.column width="10%"}
 :::
 
-::: {.column width="45%"}
-
-:::
-
 ::::
 
-:::
-
-::::
 
 **Bronze**
 
 :::: {.columns}
-::: {.column width="15%"}
-:::
-
-::: {.column width="70%"}
-
-:::: {.columns}
-
-::: {.column width="45%"}
-
-[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=100%}](https://bigomics.ch){target="_blank"}
-
-:::
-
 ::: {.column width="10%"}
 :::
 
-::: {.column width="45%"}
-[![](../images/sponsors/MedBioinformatics-Logo-1000x358.png){width=100%}](https://medbioinformatics.com){target="_blank"}
+::: {.column width="80%"}
 
+:::: {.columns}
+::: {.column width="30%"}
+[![](../images/sponsors/Bigomics-Logo-1000x358.png){width=100%}](https://bigomics.ch){target="_blank"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+[![](../images/sponsors/MedBioinformatics-Logo-1000x358.png){width=100%}](https://medbioinformatics.com){target="_blank"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="30%"}
+[![](../images/sponsors/RConsortium-Logo-1000x358.png){width=100%}](https://r-consortium.org){target="_blank"}
 :::
 
 ::::
 
 :::
 
-::: {.column width="15%"}
+::: {.column width="10%"}
 :::
 
 ::::

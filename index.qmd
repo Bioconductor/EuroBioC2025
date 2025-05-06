@@ -66,6 +66,39 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 ::: {.column width="60%"}
 
 :::: {.columns}
+::: {.column width="15%"}
+:::
+
+::: {.column width="30%"}
+[![](images/sponsors/MELISMdM-Logo-1000x358.png){width=100%}](https://www.upf.edu/web/biomed/mdm){target="_blank"}
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="30%"}
+[![](images/sponsors/Seqera-Logo-1000x358.png){width=100%}](https://seqera.io){target="_blank"}
+:::
+
+::: {.column width="15%"}
+:::
+
+::::
+
+:::
+
+::: {.column width="20%"}
+:::
+
+::::
+
+:::: {.columns}
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%"}
+
+:::: {.columns}
 ::: {.column width="30%"}
 [![](images/sponsors/Bigomics-Logo-1000x358.png){width=100%}](https://bigomics.ch){target="_blank"}
 :::
@@ -74,14 +107,14 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 :::
 
 ::: {.column width="30%"}
-[![](images/sponsors/Seqera-Logo-1000x358.png){width=100%}](https://seqera.io){target="_blank"}
+[![](images/sponsors/MedBioinformatics-Logo-1000x358.png){width=100%}](https://medbioinformatics.com){target="_blank"}
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="30%"}
-[![](images/sponsors/MedBioinformatics-Logo-1000x358.png){width=100%}](https://medbioinformatics.com){target="_blank"}
+[![](images/sponsors/RConsortium-Logo-1000x358.png){width=100%}](https://r-consortium.org){target="_blank"}
 :::
 
 ::::
