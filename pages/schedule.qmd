@@ -22,7 +22,7 @@ for (typ in c("Short talk", "Workshop")) {
     fp$day <- as.integer(factor(ds, c("Wed", "Thu")))
     is <- which(df$type == paste0(typ, "s"))
     is <- c(1, is, nrow(df))
-    .df <- data.frame()
+    .df <- df[1, ]
     for (. in seq_along(is)[-1]) {
         i <- is[.]
         # find matching entries
