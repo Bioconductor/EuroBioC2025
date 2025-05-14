@@ -1,29 +1,109 @@
 # Schedule
 
 ```{r echo=FALSE}
-url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vSkRZqVLjOAamGk82cTXmUNTj2WLCmPK_r1qLGn8ixgNmOlgff6VbSe0IgR_2qjc_CNSaBdhFPLrfyX/pub?gid=731106475&single=true&output=csv"
-df <- read.csv(url)
+# schedule
+csv <- "../data/schedule.csv"
+df <- read.csv(csv)
+df$author <- gsub("Contributed(.*)", "", df$author) # be less verbose
 library(kableExtra)
+# contributions
+csv <- "../data/sessions.csv"
+fd <- read.csv(csv)
+# display 1st author only
+a <- strsplit(fd$author, ",")
+a <- sapply(a, .subset, 1)
+fd$author <- a
+# populate schedule with contributions
+for (typ in c("Short talk", "Workshop")) {
+    # get enties
+    fp <- fd[fd$type == typ, ]
+    fp$time <- gsub("[A-z]+\\s(.*)-.*", "\\1", fp$day)
+    ds <- gsub("([A-z]+).*", "\\1", fp$day)
+    fp$day <- as.integer(factor(ds, c("Wed", "Thu")))
+    is <- which(df$type == paste0(typ, "s"))
+    is <- c(1, is, nrow(df))
+    .df <- data.frame()
+    for (. in seq_along(is)[-1]) {
+        i <- is[.]
+        # find matching entries
+        j <- df$day[i] == fp$day & df$time[i] == fp$time
+        # insert entries into schedule
+        .df <- dplyr::bind_rows(.df, df[seq(is[.-1]+1, is[.]), ], fp[j, ])
+    }; df <- .df
+}
 ```
 
 ```{r results="asis", echo=FALSE}
+# don't reprint times and session type
+na <- df$title != "" & df$title %in% fd$title
+df$time[na] <- df$type[na] <- ""
 # columns to display
-cols_to_display <- c("time", "type", "author", "title")
+cols_to_show <- c("time", "type", "author", "title")
 # section headers
 ds <- c(
     "Wed. - Sep. 17, '25",
     "Thu. - Sep. 18, '25",
     "Fri. - Sep. 19, '25")
 is <- split(seq(nrow(df)), df$day)
-# column widths
-ws <- paste0(100/length(cols_to_display), "%")
-kbl(df[, cols_to_display], row.names=FALSE) |>
+# add collapse boxes for abstracts
+box <- "::: {.callout-caution 
+title='%s' collapse='true' appearance='minimal' icon=false, 
+style='border-color: white; padding: 0rem; margin: 0rem; 
+font-family: Nunito Sans; font-weight: 100 !important;'}\n"
+for (. in seq(sum(na))) 
+    df$title[na][.] <- paste(
+        sprintf(box, df$title[na][.]), 
+        df$abstract[na][.], "\n\n:::")
+# render table
+kbl(df[, cols_to_show], row.names=FALSE) |>
+    # styling
     kable_material(full_width=TRUE) |>
-    column_spec(seq_along(cols_to_display), width=ws) |>
-    row_spec(which(df$type == "Keynote"), background="lavender") |>
-    row_spec(which(df$type %in% c("Break", "Lunch")), background="lightyellow") |>
+    column_spec(1, width="15%") |>
+    column_spec(2, width="20%") |>
+    column_spec(3, width="25%") |>
+    column_spec(4, width="40%") |>
+    # # reduce size of contributed sessions
+    # row_spec(which(na), font_size="small") |>
+    # highlights some session types
+    row_spec(
+        which(df$type == "Keynote"), 
+        background="lavender") |>
+    row_spec(
+        which(df$type %in% c("Break", "Lunch")), 
+        background="lightyellow") |>
+    # group rows by day
     pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
     pack_rows(ds[2], min(is[[2]]), max(is[[2]])) |>
     pack_rows(ds[3], min(is[[3]]), max(is[[3]])) |>
+    # add horizontal lines between rows
+    row_spec(
+        which(df$type == "Keynote"), 
+        extra_css="border-bottom: 1px solid lightyellow") |>
+    row_spec(
+        which(df$type != "Keynote"), 
+        extra_css="border-bottom: 1px solid lavender") |>
+    cat()
+```
+
+## Posters
+
+(in alphabetical order)
+
+```{r results="asis", echo=FALSE}
+# columns to display
+cols_to_show <- c("author", "title")
+# get posters
+fp <- fd[fd$type == "Poster", ]
+# order alphabetically
+fp <- fp[order(fp$author), ]
+kbl(fp[, cols_to_show], row.names=FALSE) |>
+    kable_material(full_width=TRUE, bootstrap_options="striped") |>
+    # styling
+    row_spec(seq(nrow(fp)), font_size="small") |>
+    column_spec(1, width="20%") |>
+    column_spec(2, width="80%") |>
+    row_spec(
+        seq(2, nrow(fp), 2), 
+        background="grey95") |>
     cat()
 ```
