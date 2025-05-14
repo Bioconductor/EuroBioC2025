@@ -4,7 +4,7 @@ project:
   resources: CNAME
   
 website:
-  title: "European Bioconductor Conference 2025"
+  title: "EuroBioC2025"
   favicon: images/favicon.ico
   navbar:
     toggle-position: right
@@ -27,9 +27,10 @@ website:
           - href: pages/travel-information.qmd
   page-footer:
     left: |
-      [![](../images/logoUPF.png){width=30%}](https://www.upf.edu/biomed)
-      [![](../images/logoISGLOBAL.png){width=30%}](https://www.isglobal.org)
-      [![](../images/logoPRBB.png){width=30%}](https://prbb.org)
+      [![](../images/logoUPF.png){width=25%}](https://www.upf.edu/biomed){target="_blank"}
+      [![](../images/logoISGLOBAL.png){width=25%}](https://www.isglobal.org){target="_blank"}
+      [![](../images/logoPRBB.png){width=25%}](https://www.prbb.org){target="_blank"}
+      [![](../images/logoMICIU_AEI_1120x275.png){width=22%}](https://www.aei.gob.es/en){target="_blank"}
     center: | 
       Copyright &copy; 2025 Bioconductor
       <br>[eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org)
