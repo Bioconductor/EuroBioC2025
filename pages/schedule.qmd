@@ -87,21 +87,23 @@ kbl(df[, cols_to_show], row.names=FALSE) |>
 
 ## Posters
 
-(in alphabetical order)
-
 ```{r results="asis", echo=FALSE}
 # columns to display
 cols_to_show <- c("author", "title")
 # get posters
 fp <- fd[fd$type == "Poster", ]
-# order alphabetically
-fp <- fp[order(fp$author), ]
+# split by day
+is <- split(seq(nrow(fp)), factor(fp$day, c("Wed", "Thu")))
 kbl(fp[, cols_to_show], row.names=FALSE) |>
     kable_material(full_width=TRUE, bootstrap_options="striped") |>
     # styling
     row_spec(seq(nrow(fp)), font_size="small") |>
     column_spec(1, width="20%") |>
     column_spec(2, width="80%") |>
+    # group rows by day
+    pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
+    pack_rows(ds[2], min(is[[2]]), max(is[[2]])) |>
+    # alternated shading
     row_spec(
         seq(2, nrow(fp), 2), 
         background="grey95") |>
