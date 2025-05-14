@@ -87,6 +87,8 @@ kbl(df[, cols_to_show], row.names=FALSE) |>
 
 ## Posters
 
+(In alphabetical order.)
+
 ```{r results="asis", echo=FALSE}
 # columns to display
 cols_to_show <- c("author", "title")
@@ -94,6 +96,12 @@ cols_to_show <- c("author", "title")
 fp <- fd[fd$type == "Poster", ]
 # split by day
 is <- split(seq(nrow(fp)), factor(fp$day, c("Wed", "Thu")))
+# order alphabetically
+for (i in is) {
+    fq <- fp[i, ]
+    o <- order(fq$author)
+    fp[i, ] <- fq[o, ]
+}
 kbl(fp[, cols_to_show], row.names=FALSE) |>
     kable_material(full_width=TRUE, bootstrap_options="striped") |>
     # styling
