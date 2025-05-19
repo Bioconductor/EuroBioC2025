@@ -46,14 +46,10 @@ ds <- c(
     "Fri. - Sep. 19, '25")
 is <- split(seq(nrow(df)), df$day)
 # add collapse boxes for abstracts
-box <- "::: {.callout-caution 
-title='%s' collapse='true' appearance='minimal' icon=false, 
-style='border-color: white; padding: 0rem; margin: 0rem; 
-font-family: Nunito Sans; font-weight: 100 !important;'}\n"
+box <- '::: {.callout-caution title="%s" appearance="minimal" icon=false collapse=true 
+style="border-color: white; padding: 0rem; margin: 0rem; font-family: Nunito Sans;"}\n%s\n'
 for (. in seq(sum(na))) 
-    df$title[na][.] <- paste(
-        sprintf(box, df$title[na][.]), 
-        df$abstract[na][.], "\n\n:::")
+    df$title[na][.] <- sprintf(box, df$title[na][.], df$abstract[na][.])
 # render table
 kbl(df[, cols_to_show], row.names=FALSE) |>
     # styling
@@ -94,6 +90,9 @@ kbl(df[, cols_to_show], row.names=FALSE) |>
 cols_to_show <- c("author", "title")
 # get posters
 fp <- fd[fd$type == "Poster", ]
+# add collapse boxes for abstracts
+for (. in seq(nrow(fp))) 
+    fp$title[.] <- sprintf(box, fp$title[.], fp$abstract[.])
 # split by day
 is <- split(seq(nrow(fp)), factor(fp$day, c("Wed", "Thu")))
 # order alphabetically
@@ -106,14 +105,14 @@ kbl(fp[, cols_to_show], row.names=FALSE) |>
     kable_material(full_width=TRUE, bootstrap_options="striped") |>
     # styling
     row_spec(seq(nrow(fp)), font_size="small") |>
-    column_spec(1, width="20%") |>
-    column_spec(2, width="80%") |>
+    column_spec(1, width="25%") |>
+    column_spec(2, width="75%") |>
     # group rows by day
     pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
     pack_rows(ds[2], min(is[[2]]), max(is[[2]])) |>
-    # alternated shading
+    # add horizontal lines between rows
     row_spec(
-        seq(2, nrow(fp), 2), 
-        background="grey95") |>
+        seq(nrow(fp)),
+        extra_css="border-bottom: 1px solid lavender") |>
     cat()
 ```
