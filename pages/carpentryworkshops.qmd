@@ -36,8 +36,10 @@ telephone device to authenticate in the guest network.
 
 ## Registration
 
-Details to register for the pre-conference Carpentries workshops will
-appear soon. Stay tuned!
+The fee for each workshop is €120, including lunch and coffee breaks.
+**Registration is now open at
+[https://eventum.upf.edu/go/eurobioc2025CarpentryWorkshops](https://eventum.upf.edu/go/eurobioc2025CarpentryWorkshops){target="_blank"}**. Places are limited to 30 spots per
+workshop. Hurry up if you want to secure yours!
 
 ## What is a Bioconductor Carpentry Workshop
 
