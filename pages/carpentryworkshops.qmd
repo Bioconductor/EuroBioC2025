@@ -8,7 +8,7 @@ the following two-day Bioconductor Carpentry Workshops:
 * **[Analysis and interpretation of bulk RNA sequencing data with Bioconductor](https://carpentries-incubator.github.io/bioc-rnaseq):**
   This course shows how to use Bioconductor packages to analyse bulk RNA-seq
   data including how to import and annotated quantified data into R, exploratory
-  analysis and quality control, differential expression analyais and gene set
+  analysis and quality control, differential expression analysis and gene set
   enrichment analysis. Pre-requisites: familiarity with R and Bioconductor.
   **Instructors:** Estefania Mancini, Vasileios Panagoitis Lenis and Jacques Serizay.
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.41">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e6ddf4e3e105cc8a8b72f24854d1dacb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Carpentry-workshops</h1>
 <p>Right before EuroBioC2025 starts, on Monday and Tuesday 15th and 16th of September, the <a href="https://training.bioconductor.org">Bioconductor training committee</a> organizes the following two-day Bioconductor Carpentry Workshops:</p>
 <ul>
-<li><p><strong><a href="https://carpentries-incubator.github.io/bioc-rnaseq">Analysis and interpretation of bulk RNA sequencing data with Bioconductor</a>:</strong> This course shows how to use Bioconductor packages to analyse bulk RNA-seq data including how to import and annotated quantified data into R, exploratory analysis and quality control, differential expression analyais and gene set enrichment analysis. Pre-requisites: familiarity with R and Bioconductor. <strong>Instructors:</strong> Estefania Mancini, Vasileios Panagoitis Lenis and Jacques Serizay.</p></li>
+<li><p><strong><a href="https://carpentries-incubator.github.io/bioc-rnaseq">Analysis and interpretation of bulk RNA sequencing data with Bioconductor</a>:</strong> This course shows how to use Bioconductor packages to analyse bulk RNA-seq data including how to import and annotated quantified data into R, exploratory analysis and quality control, differential expression analysis and gene set enrichment analysis. Pre-requisites: familiarity with R and Bioconductor. <strong>Instructors:</strong> Estefania Mancini, Vasileios Panagoitis Lenis and Jacques Serizay.</p></li>
 <li><p><strong><a href="https://carpentries-incubator.github.io/bioc-scrnaseq">Analysis and interpretation of single-cell RNA sequencing data with Bioconductor</a>:</strong> This course shows how to use Bioconductor packages for essential single-cell analysis steps including quality control, cell type annotation, multi-sample analysis, working with large data, and integration with public data. Pre-requisites: familiarity with R and Bioconductor, familiarity with bulk RNA-seq data analysis is beneficial, but not strictly required. <strong>Instructors:</strong> Robert Ivánek and Kevin Rue-Albrecht.</p></li>
 </ul>
 <p>Each workshop takes two days, so you should either register for one or the other.</p>
@@ -383,8 +383,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -495,7 +493,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
