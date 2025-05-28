@@ -26,6 +26,8 @@ result, the organization of the EuroBioC2025 is unable to offer individual refun
 **Important:** If you need an invoice to order the payment by bank transfer or
 to get the registration fee reimbursed by your employer, please fill out the
 invoicing information details in the corresponding text box of the registration form.
+Note that the online registration system **does not** automatically generate invoices
+and it may take us a few days or weeks to prepare and send you the invoice.
 
 After the conference, we will provide certificates of attendance. For further
 inquiries related to conference registration, please contact us at
