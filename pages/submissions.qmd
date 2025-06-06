@@ -4,12 +4,14 @@
 
 **Important Dates**
 
-- **February 19th**: Call for abstracts opens
-- **April 24th**: Call for abstracts closes
-- **May 9th**: Notification of decision
+- ~~**February 19th**: Call for abstracts opens~~
+- ~~**April 24th**: Call for abstracts closes~~
+- ~~**May 9th**: Notification of decision~~
 <!-- - **TBD**: Submission of Birds-of-a-Feather sessions closes -->
 
-[Submit your abstract here!](https://openreview.net/group?id=bioconductor.org/EuroBioC/2025/Conference)
+<!--[Submit your abstract here!](https://openreview.net/group?id=bioconductor.org/EuroBioC/2025/Conference)-->
+
+The call for abstracts has closed.
 
 ## Submission types
 
