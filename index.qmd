@@ -39,9 +39,9 @@ The European Bioconductor Conference (EuroBioC2025) will take place on
 **Important dates**
 :::
 
-- **February 19**: Call for abstracts opens
-- **April 24**: Call for abstracts closes
-- **May 9**: Notification of decision
+- ~~**February 19**: Call for abstracts opens~~
+- ~~**April 24**: Call for abstracts closes~~
+- ~~**May 9**: Notification of decision~~
 - **May 16**: Registration opens for all participants
 - **July 31 (or earlier if places are sold out)**: Registration closes
 - **September 15-16**: [Bioconductor Carpentry Workshops](pages/carpentryworkshops.qmd)
