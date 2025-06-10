@@ -21,7 +21,7 @@ Carpentry Workshops:
   analysis, working with large data, and integration with public data.
   Pre-requisites: familiarity with R and Bioconductor, familiarity with bulk RNA-seq
   data analysis is beneficial, but not strictly required. **Instructors:**
-  Robert Ivánek and Kevin Rue-Albrecht.
+  Robert Ivánek, Mireia Ramos and Kevin Rue-Albrecht.
 
 Each workshop takes two days, so you should either register for one or the other.
 

@@ -17,12 +17,18 @@ c:
   web: https://www.birmingham.ac.uk/staff/profiles/cancer-genomic/lenis-vasileios
   txt: "Vasileios Panagiotis Lenis is Associate Professor in Bioinformatics and Health Data Science Education, working in a range of topics from comparative genomics and evolutionary studies to neuroscience research and personalised medicine."
 d:
+  nom: Mireia Ramos
+  pic: MireiaRamos.jpg
+  pos: Postdoctoral Fellow, Universitat Pompeu Fabra, Barcelona, Spain
+  txt: "Mireia Ramos is a postdoctoral researcher in bioinformatics and regulatory genomics at the Endrocrine Regulatory Genomics Lab in the Department of Medicine and Life Sciences of Universitat Pompeu Fabra in Barcelona. Mireia has extensive experience analysing genomics data of different modalities to investigate the epigenetic mechanisms that regulate gene expression, and is the developer of the UMI4Cats Bioconductor package for processing, analysis and visualization of UMI-4C chromatin contact data. She is also the organizer for R-Ladies Barcelona."
+  web: https://mireia-bioinfo.github.io
+e:
   nom: Kevin Rue-Albrecht
   pic: KevinRue-Albrecht.jpg
   pos: Biomedical Data Science Trainer, University of Oxford, UK
   web: https://www.rdm.ox.ac.uk/people/kevin-rue-albrecht
   txt: "Kevin Rue-Albrecht is a computational biologist and bioinformatics software developer that works on exploring and developing single-cell approaches for understanding inflammatory disorders, and on training cohorts of new computational biologists as part of the Oxford Biomedical Data Science Training Programme."
-e:
+f:
   nom: Jacques Serizay
   pic: JacquesSerizay.png
   pos: Postdoctoral Fellow, Institut Pasteur, Paris, France
