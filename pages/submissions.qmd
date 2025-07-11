@@ -7,15 +7,15 @@
 - ~~**February 19th**: Call for abstracts opens~~
 - ~~**April 24th**: Call for abstracts closes~~
 - ~~**May 9th**: Notification of decision~~
-- **June 20th**: Call for late-breaking poster abstract opens (**NEW!**)
-- **July 11th**: Call for late-breaking poster abstract closes
+- ~~**June 20th**: Call for late-breaking poster abstract opens~~
+- ~~**July 11th**: Call for late-breaking poster abstract closes~~
 - **July 15th**: Notification of decision for late-breaking posters
 <!-- - **TBD**: Submission of Birds-of-a-Feather sessions closes -->
 
 <!--[Submit your abstract here!](https://openreview.net/group?id=bioconductor.org/EuroBioC/2025/Conference)-->
 
-[Submit your late-breaking poster abstract here!](https://forms.gle/ewTGdKzB2xyEg58f8){target="_blank"}
-<!--The call for abstracts has closed.-->
+<!--[Submit your late-breaking poster abstract here!](https://forms.gle/ewTGdKzB2xyEg58f8){target="_blank"}-->
+The call for abstracts has closed.
 
 ## Submission types
 
