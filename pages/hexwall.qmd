@@ -1,0 +1,30 @@
+# Sticker-Hexwall
+
+We’re planning a sticker hexwall for EuroBioc2025, a visual display of Bioconductor package stickers that may be featured in the event space. If feasible, it would be a fun way to highlight the diversity of the Bioconductor ecosystem. A photo-call might also be possible, depending on final logistics.
+
+If the physical display cannot go ahead for any reason, we still plan to showcase the hexwall on the conference website.
+
+## Preview draft Hexwall
+![](../images/biochexwall-247-stickers-273-hex.png){fig-alt="Draft layout of the Bioconductor sticker hexwall" fig-align="center" width=60% }
+
+You can view the full-resolution hexwall and explore the included packages on [Zenodo](https://zenodo.org/records/15880369)
+
+This is a draft layout. The final version will include all new submissions received by the deadline.
+
+## How to Get Your Sticker Included
+If your package’s sticker isn’t yet in the [BiocStickers GitHub repository]( https://github.com/Bioconductor/BiocStickers), we encourage you to submit it.
+
+- **Submission deadline**: Tuesday, July 22, 2025
+- **Submit via**: [BiocStickers GitHub repo](https://github.com/Bioconductor/BiocStickers)
+- **Need help?** Reach out to us on [Bioconductor Zulip](https://chat.bioconductor.org) channel #eurobioc-conference-everyone
+- **See an example**: [Example pull request](https://github.com/Bioconductor/BiocStickers/pull/210).
+
+### What to Include in Your Pull Request
+- A PNG of your sticker (5cm height, 300dpi)\
+- A `README.md` file with:\
+    - Package name\
+    - Sticker designer/maintainer\
+- A line in the [main `README.md`](https://github.com/Bioconductor/BiocStickers/blob/devel/README.md) to display your sticker
+
+## Help Spread the Word
+Know a package, perhaps from a colleague, student, or one you use regularly, that’s missing a sticker? Please encourage them to contribute!

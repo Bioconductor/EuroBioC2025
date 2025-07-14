@@ -18,6 +18,7 @@ website:
       - href: pages/submissions.qmd
       - href: pages/registration.qmd
       - href: pages/carpentryworkshops.qmd
+      - href: pages/hexwall.qmd
       - href: pages/sponsors.qmd
       - text: About
         menu:
