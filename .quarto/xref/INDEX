@@ -70,5 +70,8 @@
   },
   "pages/carpentryworkshops.qmd": {
     "carpentryworkshops.html": "32e10925"
+  },
+  "pages/hexwall.qmd": {
+    "hexwall.html": "256ae890"
   }
 }
