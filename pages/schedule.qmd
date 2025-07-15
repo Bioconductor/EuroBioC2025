@@ -94,7 +94,9 @@ fp <- fd[fd$type == "Poster", ]
 for (. in seq(nrow(fp))) 
     fp$title[.] <- sprintf(box, fp$title[.], fp$abstract[.])
 # split by day
-is <- split(seq(nrow(fp)), factor(fp$day, c("Wed", "Thu")))
+fp$day <- factor(fp$day, c("Wed", "Thu"))
+fp <- fp[order(fp$day), ]
+is <- split(seq(nrow(fp)), fp$day)
 # order alphabetically
 for (i in is) {
     fq <- fp[i, ]
