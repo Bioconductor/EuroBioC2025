@@ -103,12 +103,14 @@ for (i in is) {
     o <- order(fq$author)
     fp[i, ] <- fq[o, ]
 }
-kbl(fp[, cols_to_show], row.names=FALSE) |>
+fp$`#` <- unlist(lapply(is, seq_along))
+kbl(fp[, c("#", cols_to_show)], align="rll", row.names=FALSE) |>
     kable_material(full_width=TRUE, bootstrap_options="striped") |>
     # styling
     row_spec(seq(nrow(fp)), font_size="small") |>
-    column_spec(1, width="25%") |>
-    column_spec(2, width="75%") |>
+    column_spec(1, width="5%") |>
+    column_spec(2, width="25%") |>
+    column_spec(3, width="70%") |>
     # group rows by day
     pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
     pack_rows(ds[2], min(is[[2]]), max(is[[2]])) |>
