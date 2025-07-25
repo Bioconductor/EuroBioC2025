@@ -40,9 +40,21 @@ telephone device to authenticate in the guest network.
 ## Registration
 
 The fee for each workshop is €120, including lunch and coffee breaks.
-**Registration is now open at
-[https://eventum.upf.edu/go/eurobioc2025CarpentryWorkshops](https://eventum.upf.edu/go/eurobioc2025CarpentryWorkshops){target="_blank"}**. Places are limited to 30 spots per
-workshop. Hurry up if you want to secure yours!
+**Registration is open at
+[https://eventum.upf.edu/go/eurobioc2025CarpentryWorkshops](https://eventum.upf.edu/go/eurobioc2025CarpentryWorkshops){target="_blank"} until Thursday August 28th**,
+or earlier if places are sold out. Places are limited to 30 spots per workshop,
+the online registration system shows the overall number of available spots, but
+it cannot show that number per workshop, please write an email to
+[eurobioc@bioconductor.org](mailto:eurobioc@bioconductor.org) if interested.
+
+**Important:** If you need an invoice to order the payment by bank transfer or
+to get the registration fee reimbursed by your employer, please fill out the
+invoicing information details in the corresponding text box of the registration form.
+Note that the online registration system **does not** automatically generate invoices
+and it may take us a few days or weeks to prepare and send you the invoice. If you
+request an invoice in August, you **will not** receive it before September due to
+summer holidays in Spain. If you need it earlier to process a payment by bank transfer,
+we recommend paying your registration by credit card.
 
 ## What is a Bioconductor Carpentry Workshop
 
