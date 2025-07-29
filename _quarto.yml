@@ -26,6 +26,7 @@ website:
           - href: pages/past-events.qmd
           - href: pages/code-of-conduct.qmd
           - href: pages/travel-information.qmd
+          - href: pages/conference-dinner.qmd
   page-footer:
     left: |
       [![](../images/logoUPF.png){width=25%}](https://www.upf.edu/biomed){target="_blank"}
