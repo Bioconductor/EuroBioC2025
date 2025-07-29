@@ -55,3 +55,11 @@ b,strong {
 .nav-footer a:link{
   color: black !important;
 }
+
+/* vertically center, from https://github.com/quarto-dev/quarto-cli/discussions/1386 */
+.v-center-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}

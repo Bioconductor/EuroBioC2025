@@ -10,10 +10,31 @@ concretely in the room called
 after the name of the architect of the building. This site is about 4km away from
 the conference venue, its specific address is:
 
+:::: {.columns .v-center-container}
+::: {.column width="4%"}
+:::
+
+::: {.column width="40%"}
+
 **Old Hospital de Sant Pau**  
 Carrer de Sant Antoni Maria Claret, 167  
 08025 Barcelona  
 (see [Google directions](https://maps.app.goo.gl/o3iQe1oQfjWPxVwm9){target="_blank"})  
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="40%"}
+[![](../images/HospitalDeSantPau.jpg){width="90%"}](https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau){target="_blank"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::::
+
+
 
 The four main options to reach it from the conference venue are:
 
