@@ -64,6 +64,11 @@ The PRBB can be reached by:
   and
   [D20](https://www.tmb.cat/en/barcelona/buses/-/lineabus/D20)).
 
+### Breastfeeding
+
+The PRBB has a room for breastfeeding. Please contact the organisation upon
+registration during the conference for more information.
+
 ## Accommodation
 
 Participants are responsible for their accommodation arrangements. While
@@ -117,3 +122,33 @@ lowest accommodation rates:
 * [Hostelling International affiliated youth hostels](https://hihostels.com/hostels/?adventure=&country=Spain&city=Catalonia+-+Barcelona+-+City)
 
 * [HostelWorld affiliated youth hostels](https://www.hostelworld.com/hostels/europe/spain/barcelona)
+
+## Traveling with children
+
+The official website of the tourist office of Barcelona,
+[BarcelonaTurisme](https://www.barcelonaturisme.com/wv3/en/page/40/with-the-family.html){target="_blank"}
+has information on activities to do with children. The conference venue
+is only 10 minutes walking from the [Barcelona Zoo](https://zoobarcelona.cat/en){target="_blank"},
+and 20 minutes from the [Barcelona Aquarium](https://aquariumbcn.com/en){target="_blank"}.
+
+### Childcare services
+
+The kindergarten [Chiqui La Vila](https://chiquilavila.org/en){target="_blank"}
+is also about 10 minutes walking from the conference venue, and offers
+babysitting services during the conference at the participant's expense. While
+they accept children from all ages, their premises are more suitable for
+children under 7 years of age. You may find more information in the following
+[document](ChildcareEuroBioC2025_ChiquiLaVila.pdf){target="_blank"}. If you are
+interested, please contact them at
+[info@chiquilavila.org](mailto:info@chiquilavila.org) before
+September 11th, 2025.
+
+The following childcare services work on hourly basis and can give service
+at the hotel or appartment where you are staying:
+[https://nanniesbarcelona.com](https://nanniesbarcelona.com){target="_blank"} and
+[https://nanniesmannies.com](https://nanniesmannies.com){target="_blank"}.
+
+Please note that while all these childcare services are reputable businesses
+in Barcelona, the Universitat Pompeu Fabra and Bioconductor cannot be held
+responsible for any agreements that the participants of the conference reach
+directly with them.
