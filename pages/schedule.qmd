@@ -12,10 +12,10 @@ fd <- read.csv(csv)
 # display 1st author only
 ss <- strsplit(fd$author, ",")
 fd$author <- sapply(ss, .subset, 1)
-as <- sapply(ss, .subset, -1)
+as <- lapply(ss, .subset, -1)
 as <- lapply(as, paste, collapse=", ")
-as[as == ""] <- NULL
-fd$coauth <- paste(fd$author, unlist(as), sep=", ")
+fd$coauth <- ifelse(as == "", fd$author,
+    paste(fd$author, unlist(as), sep=", "))
 # populate schedule with contributions
 for (typ in c("Short talk", "Workshop")) {
     # get enties
