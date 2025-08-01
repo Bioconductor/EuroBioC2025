@@ -10,9 +10,12 @@ library(kableExtra)
 csv <- "../data/sessions.csv"
 fd <- read.csv(csv)
 # display 1st author only
-a <- strsplit(fd$author, ",")
-a <- sapply(a, .subset, 1)
-fd$author <- a
+ss <- strsplit(fd$author, ",")
+fd$author <- sapply(ss, .subset, 1)
+as <- sapply(ss, .subset, -1)
+as <- lapply(as, paste, collapse=", ")
+as[as == ""] <- NULL
+fd$coauth <- paste(fd$author, unlist(as), sep=", ")
 # populate schedule with contributions
 for (typ in c("Short talk", "Workshop")) {
     # get enties
@@ -48,8 +51,10 @@ is <- split(seq(nrow(df)), df$day)
 # add collapse boxes for abstracts
 box <- '::: {.callout-caution title="%s" appearance="minimal" icon=false collapse=true 
 style="border-color: white; padding: 0rem; margin: 0rem; font-family: Nunito Sans;"}\n%s\n'
-for (. in seq(sum(na))) 
-    df$title[na][.] <- sprintf(box, df$title[na][.], df$abstract[na][.])
+for (. in seq(sum(na))) {
+    txt <- paste0("Author(s): ", df$coauth[na][.], "\n\n", df$abstract[na][.])
+    df$title[na][.] <- sprintf(box, df$title[na][.], txt)
+}
 # render table
 kbl(df[, cols_to_show], row.names=FALSE) |>
     # styling
@@ -91,8 +96,10 @@ cols_to_show <- c("author", "title")
 # get posters
 fp <- fd[fd$type == "Poster", ]
 # add collapse boxes for abstracts
-for (. in seq(nrow(fp))) 
-    fp$title[.] <- sprintf(box, fp$title[.], fp$abstract[.])
+for (. in seq(nrow(fp))) {
+    txt <- paste0("Author(s): ", fp$coauth[.], "\n\n", fp$abstract[.])
+    fp$title[.] <- sprintf(box, fp$title[.], txt)
+}
 # split by day
 fp$day <- factor(fp$day, c("Wed", "Thu"))
 fp <- fp[order(fp$day), ]
