@@ -20,6 +20,7 @@ result, the organization of the EuroBioC2025 is unable to offer individual refun
 
 ## Register
 
+<!--
 **Registration for EuroBioC2025 is open at
 [https://eventum.upf.edu/go/eurobioc2025](https://eventum.upf.edu/go/eurobioc2025){target="_blank"}
 until Thursday August 28th**, or earlier if places are sold out; see the
@@ -33,6 +34,9 @@ and it may take us a few days or weeks to prepare and send you the invoice. If y
 request an invoice in August, you **will not** receive it before September due to
 summer holidays in Spain. If you need it earlier to process a payment by bank transfer,
 we recommend paying your registration by credit card.
+-->
+
+**Registration for EuroBioC2025 is closed.**
 
 After the conference, we will provide certificates of attendance. For further
 inquiries related to conference registration, please contact us at
