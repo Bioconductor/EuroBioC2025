@@ -1,18 +1,31 @@
 # Sticker-Hexwall
 
-We’re planning a sticker hexwall for EuroBioc2025, a visual display of Bioconductor package stickers that may be featured in the event space. If feasible, it would be a fun way to highlight the diversity of the Bioconductor ecosystem. A photo-call might also be possible, depending on final logistics.
+We are planning a sticker hexwall for EuroBioc2025, a visual display of Bioconductor package stickers that will be displayed in a photo-call at the conference. It will be a fun way to highlight the diversity of the Bioconductor ecosystem. We have produced two designs, one using the musical note of the Bioconductor logo, and another one using an hexagonal shape. These two designs were crafted by [Kevin Rue-Albrecht](https://kevinrue.github.io){target="_blank"} with the input of the rest of the [EuroBioC2025 organising committee](organizers.qmd).
 
-If the physical display cannot go ahead for any reason, we still plan to showcase the hexwall on the conference website.
+## Preview Hexwall
+:::: {.columns}
 
-## Preview draft Hexwall
-![](../images/biochexwall-247-stickers-273-hex.png){fig-alt="Draft layout of the Bioconductor sticker hexwall" fig-align="center" width=60% }
+::: {.column width="49%"}
+![](../images/biochexwall-270-stickers-273-hex.png){fig-alt="Layout of the Bioconductor sticker hexwall with a musical note design" fig-align="center" width=100% }
+:::
 
-You can view the full-resolution hexwall and explore the included packages on [Zenodo](https://zenodo.org/records/15880369)
+::: {.column width="2%"}
+:::
 
+::: {.column width="49%"}
+![](../images/hexwall-270-stickers-341-hex.png){fig-alt="Layout of the Bioconductor sticker hexwall with a hexagonal note design" fig-align="center" width=100% }
+:::
+
+::::
+
+You can view the full-resolution versions of these two hexwalls and explore the included packages on [Zenodo](https://doi.org/10.5281/zenodo.15880368){target="_blank"}.
+
+<!--
 This is a draft layout. The final version will include all new submissions received by the deadline.
+-->
 
 ## How to Get Your Sticker Included
-If your package’s sticker isn’t yet in the [BiocStickers GitHub repository]( https://github.com/Bioconductor/BiocStickers), we encourage you to submit it.
+If your package’s sticker is not yet in the [BiocStickers GitHub repository]( https://github.com/Bioconductor/BiocStickers), we encourage you to submit it.
 
 - **Submission deadline**: Tuesday, July 22, 2025
 - **Submit via**: [BiocStickers GitHub repo](https://github.com/Bioconductor/BiocStickers)

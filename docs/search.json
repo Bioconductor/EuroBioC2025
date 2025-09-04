@@ -4,21 +4,21 @@
     "href": "pages/hexwall.html",
     "title": "Sticker-Hexwall",
     "section": "",
-    "text": "We’re planning a sticker hexwall for EuroBioc2025, a visual display of Bioconductor package stickers that may be featured in the event space. If feasible, it would be a fun way to highlight the diversity of the Bioconductor ecosystem. A photo-call might also be possible, depending on final logistics.\nIf the physical display cannot go ahead for any reason, we still plan to showcase the hexwall on the conference website.\n\n\n\n\n\n\n\nYou can view the full-resolution hexwall and explore the included packages on Zenodo\nThis is a draft layout. The final version will include all new submissions received by the deadline.\n\n\n\nIf your package’s sticker isn’t yet in the BiocStickers GitHub repository, we encourage you to submit it.\n\nSubmission deadline: Tuesday, July 22, 2025\nSubmit via: BiocStickers GitHub repo\nNeed help? Reach out to us on Bioconductor Zulip channel #eurobioc-conference-everyone\nSee an example: Example pull request.\n\n\n\n\nA PNG of your sticker (5cm height, 300dpi)\n\nA README.md file with:\n\n\nPackage name\n\nSticker designer/maintainer\n\n\nA line in the main README.md to display your sticker\n\n\n\n\n\nKnow a package, perhaps from a colleague, student, or one you use regularly, that’s missing a sticker? Please encourage them to contribute!"
+    "text": "We are planning a sticker hexwall for EuroBioc2025, a visual display of Bioconductor package stickers that will be displayed in a photo-call at the conference. It will be a fun way to highlight the diversity of the Bioconductor ecosystem. We have produced two designs, one using the musical note of the Bioconductor logo, and another one using an hexagonal shape. These two designs were crafted by Kevin Rue-Albrecht with the input of the rest of the EuroBioC2025 organising committee.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can view the full-resolution versions of these two hexwalls and explore the included packages on Zenodo.\n\n\n\n\nIf your package’s sticker is not yet in the BiocStickers GitHub repository, we encourage you to submit it.\n\nSubmission deadline: Tuesday, July 22, 2025\nSubmit via: BiocStickers GitHub repo\nNeed help? Reach out to us on Bioconductor Zulip channel #eurobioc-conference-everyone\nSee an example: Example pull request.\n\n\n\n\nA PNG of your sticker (5cm height, 300dpi)\n\nA README.md file with:\n\n\nPackage name\n\nSticker designer/maintainer\n\n\nA line in the main README.md to display your sticker\n\n\n\n\n\nKnow a package, perhaps from a colleague, student, or one you use regularly, that’s missing a sticker? Please encourage them to contribute!"
   },
   {
-    "objectID": "pages/hexwall.html#preview-draft-hexwall",
-    "href": "pages/hexwall.html#preview-draft-hexwall",
+    "objectID": "pages/hexwall.html#preview-hexwall",
+    "href": "pages/hexwall.html#preview-hexwall",
     "title": "Sticker-Hexwall",
     "section": "",
-    "text": "You can view the full-resolution hexwall and explore the included packages on Zenodo\nThis is a draft layout. The final version will include all new submissions received by the deadline."
+    "text": "You can view the full-resolution versions of these two hexwalls and explore the included packages on Zenodo."
   },
   {
     "objectID": "pages/hexwall.html#how-to-get-your-sticker-included",
     "href": "pages/hexwall.html#how-to-get-your-sticker-included",
     "title": "Sticker-Hexwall",
     "section": "",
-    "text": "If your package’s sticker isn’t yet in the BiocStickers GitHub repository, we encourage you to submit it.\n\nSubmission deadline: Tuesday, July 22, 2025\nSubmit via: BiocStickers GitHub repo\nNeed help? Reach out to us on Bioconductor Zulip channel #eurobioc-conference-everyone\nSee an example: Example pull request.\n\n\n\n\nA PNG of your sticker (5cm height, 300dpi)\n\nA README.md file with:\n\n\nPackage name\n\nSticker designer/maintainer\n\n\nA line in the main README.md to display your sticker"
+    "text": "If your package’s sticker is not yet in the BiocStickers GitHub repository, we encourage you to submit it.\n\nSubmission deadline: Tuesday, July 22, 2025\nSubmit via: BiocStickers GitHub repo\nNeed help? Reach out to us on Bioconductor Zulip channel #eurobioc-conference-everyone\nSee an example: Example pull request.\n\n\n\n\nA PNG of your sticker (5cm height, 300dpi)\n\nA README.md file with:\n\n\nPackage name\n\nSticker designer/maintainer\n\n\nA line in the main README.md to display your sticker"
   },
   {
     "objectID": "pages/hexwall.html#help-spread-the-word",
