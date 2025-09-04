@@ -51,12 +51,13 @@ The four main options to reach it from the conference venue are:
 * **By subway (~35 minutes).** Taking the
   [L4 (yellow) line](https://www.tmb.cat/en/barcelona/metro/-/lineametro/L4){target="_blank"}
   direction Trinitat Nova, starting at the stop Ciutadella - Vila Olímpica, which
-  is about 10 minutes walking from the conference venue, stepping out 6 stops
-  later in Verdaguer, and switching to the
-  [L5 (blue) line](https://www.tmb.cat/en/barcelona/metro/-/lineametro/L5){target="_blank"} direction
-  Vall d'Hebron, and stepping out two stops later in Sant Pau | Dos de Maig. From there
-  it is a 5 minute walk uphill through Cartagena until you meet the main entrance
-  (see [Google directions](https://maps.app.goo.gl/TJ5EwcYDzwYYBGbH8){target="_blank"}).
+  is about 10 minutes walking from the conference venue, stepping out 9 stops
+  later in Guinardó - Hospital de Sant Pau. From there, you will be at the opposite
+  corner of the entrance you should take to the old hospital complex, and you will have to walk
+  about 10 minutes, first downhill through the Sant Quintí street, then turn right to
+  the Sant Antoni Maria Claret street, until you find the entrance at the corner with
+  the Cartagena street.
+  (see [Google directions](https://maps.app.goo.gl/JwQsu3kEHUd7NcoJA){target="_blank"}).
 * **By taxi (~20 minutes).** There is a taxi stop right in front of the PRBB
   building. Taxi rides apps that usually work well in Barcelona are
   [FreeNow](https://www.free-now.com/es-en){target="_blank"} and
