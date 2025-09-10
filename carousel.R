@@ -41,7 +41,7 @@ carouselItem <- function(caption, image, link, index, interval) {
   }
   item <- div(class = paste0("carousel-item", ifelse(index == 0, " active", "")),
               `data-bs-interval` = interval,
-              a(href = link, img(src = image, height="400", class = "d-block mx-auto")),
+              a(href = link, img(src = image, width="50%", class = "d-block mx-auto")),
               div(class = "carousel-caption d-none d-md-block",
                   tags$p(class = "fw-bold", style="color:white", caption)
               )
