@@ -66,7 +66,18 @@ the [conference dinner](pages/conference-dinner.qmd).
 
 ::::
 
-![](images/prbb_beach.png){fig-alt="EuroBioC2025 venue at the PRBB"}
+```{r}
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
+#| warning: false
+#| echo: false
+source("carousel.R")
+carousel(
+    "gallery-carousel", 
+    5555, # flip time in ms
+    yaml.load_file("carousel.yml"))
+```
+
+<!--![](images/prbb_beach.png){fig-alt="EuroBioC2025 venue at the PRBB"}-->
 
 # \ \ \ Sponsored by
 

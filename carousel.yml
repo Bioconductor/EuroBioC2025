@@ -1,0 +1,10 @@
+- image: "images/carousel/PRBB.png"
+  
+- image: "images/carousel/EuroBioC2024.png"
+  link: "https://eurobioc2024.bioconductor.org"
+  
+- image: "images/carousel/EuroBioC2023.png"
+  link: "https://eurobioc2023.bioconductor.org"
+  
+- image: "images/carousel/EuroBioC2022.png"
+  link: "https://eurobioc2022.bioconductor.org"
