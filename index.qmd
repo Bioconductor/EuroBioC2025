@@ -129,7 +129,7 @@ carousel(
 
 :::: {.columns}
 ::: {.column width="24%"}
-[![](../images/sponsors/RConsortium-Logo-1000x358.png){width=100%}](https://r-consortium.org){target="_blank"}
+[![](images/sponsors/RConsortium-Logo-1000x358.png){width=100%}](https://r-consortium.org){target="_blank"}
 :::
 
 ::: {.column width="1%"}
@@ -150,7 +150,7 @@ carousel(
 :::
 
 ::: {.column width="24%"}
-[![](../images/sponsors/Physalia-Logo-1000x358.png){width=100%}](https://www.physalia-courses.org){target="_blank"}
+[![](images/sponsors/Physalia-Logo-1000x358.png){width=100%}](https://www.physalia-courses.org){target="_blank"}
 ::::
 
 :::

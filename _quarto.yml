@@ -52,9 +52,9 @@ website:
       - href: https://www.linkedin.com/company/bioconductor
         icon: linkedin
         aria-label: LinkedIn
-      - href: https://slack.bioconductor.org
-        icon: slack
-        aria-label: Slack
+      - href: https://chat.bioconductor.org
+        icon: chat-right-fill
+        aria-label: Zulip
    
 page-navigation: true
 back-to-top-navigation: false
