@@ -68,7 +68,7 @@ kbl(df[, cols_to_show], row.names=FALSE) |>
         which(df$type == "Keynote"), 
         background="lavender") |>
     row_spec(
-        which(df$type %in% c("Break", "Lunch")), 
+        which(df$type %in% c("Break", "Lunch", "Group photo")), 
         background="lightyellow") |>
     # group rows by day
     pack_rows(ds[1], min(is[[1]]), max(is[[1]])) |>
