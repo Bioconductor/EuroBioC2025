@@ -35,6 +35,10 @@ for (typ in c("Short talk", "Workshop")) {
 ```
 
 ```{r results="asis", echo=FALSE}
+# add linebreak for workshops locations
+as <- df[df$type == "Workshop", "author"]
+as <- gsub(":\\s", ":<br>", as)
+df[df$type == "Workshop", "author"] <- as
 # don't reprint times and session type
 na <- df$title != "" & df$title %in% fd$title
 df$time[na] <- df$type[na] <- ""
@@ -54,7 +58,7 @@ for (. in seq(sum(na))) {
     df$title[na][.] <- sprintf(box, df$title[na][.], txt)
 }
 # render table
-kbl(df[, cols_to_show], row.names=FALSE) |>
+kbl(df[, cols_to_show], escape=FALSE, row.names=FALSE) |>
     # styling
     kable_material(full_width=TRUE) |>
     column_spec(1, width="15%") |>
