@@ -33,9 +33,11 @@ technologies impacting computational biology.
 
   
 
-Check out the information on
+<!-- Check out the information on
 [traveling, accommodation and conference venue](pages/travel-information.qmd), and
-the [conference dinner](pages/conference-dinner.qmd).
+the [conference dinner](pages/conference-dinner.qmd). -->
+Watch the recordings of the plenary sessions in the
+[Bioconductor YouTube channel](https://www.youtube.com/playlist?list=PLdl4u5ZRDMQS_qvtLJNdDqHL6z5jj5y_7){target="_blank"}.
 :::
 
 ::: {.column width="4%"}
